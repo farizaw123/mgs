@@ -1,0 +1,52 @@
+a:hover{
+    color: #D73A34;
+}
+
+.site-footer{
+    padding: 40px;
+    font-size: 18px;
+}
+
+
+.site-footer p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.site-footer h5{
+    font-weight: bold;
+}
+
+.footer-links{
+    margin-top: 10px;
+    padding-left: 0;
+    list-style: none;
+    line-height: 40px;
+}
+
+.footer-sosial{
+    padding-left: 0;
+    list-style: none;
+    line-height: 50px;
+    color: #D73A34;
+    font-size: 25px;
+}
+
+.footer-sosial a{
+    margin-left: 10px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.site-footer .row .col .container1{
+    margin-left: 300px;
+}
+
+.site-footer .row .col .container2{
+    margin-left: 300px;
+}
+
+.site-footer .row .col .container .container0{
+    margin-top: 50px;
+}
+
