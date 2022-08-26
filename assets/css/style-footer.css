@@ -38,15 +38,15 @@ a:hover{
     font-size: 20px;
 }
 
-.site-footer .row .col .container1{
-    margin-left: 300px;
+.site-footer .row .col-md-3 .container1{
+    margin-left: 100px;
 }
 
-.site-footer .row .col .container2{
-    margin-left: 300px;
+.site-footer .row .col-md-3 .container2{
+    margin-left: 100px;
 }
 
-.site-footer .row .col .container .container0{
+.site-footer .row .col-md-3 .container .container0{
     margin-top: 50px;
 }
 

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins&display=swap');
+
+.atas{
+    margin-top: 70px;
+    margin-left: 10%;
+    display: flex;
+}
+
+.atas .pict .gmbr img{
+    width: 480px;
+    height: 480px;
+}
+
+.atas .text{
+    margin-top: 35px;
+    margin-left: 15%;
+    padding-right: 60px;
+}
+
+.atas .text h3{
+    font-size: 56px;
+    font-weight: bold;
+    display: flex;
+}
+
+.atas .text h3 .merah{
+    margin-right: 17px;
+    color: red;
+    font-weight: bold;
+}
+
+.atas .text p{
+    font-size: 24px;
+    padding-right: 18%;
+}
+
+.btn-danger{
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    border: transparent;
+}

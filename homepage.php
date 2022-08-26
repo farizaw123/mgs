@@ -24,7 +24,7 @@
     </div>
     <div class="gambar">
         <div class="round">
-            <img src="assets/img/orang.png" alt="Orang">
+            <img src="assets/img/orngdpn.png" alt="model">
         </div>
     </div>
 </div>

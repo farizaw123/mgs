@@ -8,8 +8,8 @@
 </head>
     <footer class="site-footer">
         <div class="row">
-            <div class="col-md-5">
-                <div class="container">
+            <div class="col-md-6 col-md-2">
+                <div class="container" style="padding:0 200px 0 0">
                     <img src="assets/img/mgs1.png" width="50%" alt="Mega Giga Solusindo">
                     <p class="text-justify">Pondok Permai Wirosaban, Jl. Ki Ageng Pemanahan, Kragilan, Tamanan, Banguntapan Sub-District, Bantul Regency, Special Region of Yogyakarta 55191</p>
                     <div class="container0">
@@ -17,19 +17,17 @@
                         <ul class="footer-sosial">
                             <li>
                                 <li class="fa-solid fa-envelope"></li>
-                                    <a href="mailto:megagiga20@yahoo.com">megagiga20@yahoo.com</a>
-                                    <a href="mailto:recruitment@megagigasolusindo.co.id">recruitment@megagigasolusindo.co.id</a>
+                                <a href="mailto:megagiga20@yahoo.com">hrd@megagiga.co.id</a>
                             </li>
                             <li><li class="fa-solid fa-phone"></li>
-                                    <a href="https://api.whatsapp.com/send?phone=628122956948">0812 2956 948</a>
-                                    <a href="https://api.whatsapp.com/send?phone=6281288562886">0812 8856 2886</a>
+                                    <a href="https://api.whatsapp.com/send?phone=6281325603903">0813 2560 3903</a>
                             </li>
                             <li><li class="fa-brands fa-firefox"></li><a href="https://megagigasolusindo.co.id/">www.megagigasolusindo.co.id</a></li>
                         </ul> 
                     </div>  
                 </div>  
             </div>
-            <div class="col">
+            <div class="col-md-3 col-md-2">
                 <div class="container1">
                     <h5>Company</h5>
                     <ul class="footer-links">
@@ -40,7 +38,7 @@
                 </div>
                 
             </div>
-            <div class="col">
+            <div class="col-md-3 col-md-2">
                 <div class="container2">
                     <h5>Our Services</h5>
                     <ul class="footer-links">
