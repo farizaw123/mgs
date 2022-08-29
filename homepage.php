@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    <link rel="icon" href="./assets/img/mgs.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style-navbar.css">
@@ -15,17 +16,16 @@
 </head>
 <?php include 'paartials/navbar.php';?>
 
-<div class="hero">
+<div class="head">
     <div class="kata">
         <h3>Best <div class="merah">Service</div> </h3>
         <h3>For Your Company</h3>
+        <br>
         <p>Our team will always strive to give the best. For your company, both software, hardware, and server solutions.</p>
         <button class="btn-danger">Contact Us</button>
     </div>
-    <div class="gambar">
-        <div class="round">
-            <img src="assets/img/orngdpn.png" alt="model">
-        </div>
+    <div class="gambarr">
+        <img src="assets/img/orngdpn.png" alt="Orang" width="80%" >
     </div>
 </div>
 

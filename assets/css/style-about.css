@@ -5,6 +5,13 @@ body{
     font-family: poppins;   
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .atas{
     display: flex;
 }

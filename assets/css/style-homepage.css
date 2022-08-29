@@ -1,36 +1,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins&display=swap');
 
-.hero{
+.head{
     display: flex;
     margin: 7% 10% 0 10%;
 }
 
-
-.hero .gambar img{
     
+.head .gambarr {
+    width: 50%;
+    padding-left: 200px;
 }
 
-.hero .kata{
+.head .kata{
     padding-top: 100px;
     width: 50%;
 }
 
 
-.hero .kata h3{
+.head .kata h3{
     margin: 0;
     display: flex;
     font-size: 70px;
     font-weight: bold;
 }
 
-.hero .kata h3 .merah{
+.head .kata h3 .merah{
     margin: 0 17px;
     color: red;
     font-weight: bold;
 }
 
-.hero .kata p{
+.head .kata p{
     font-size: 18px;
 }
 
@@ -40,14 +41,14 @@ a{
 }
 
 
-.hero .kata button.btn-danger{
+.head .kata button.btn-danger{
     margin-top: 10px;
     padding: 15px;
     border-radius: 20px;
     border: transparent;
 }
 
-.hero .kata button.btn-danger:hover{
+.head .kata button.btn-danger:hover{
     background-color: #830400;
 }
 

@@ -6,10 +6,13 @@ body{
     font-family: poppins;
     scroll-behavior: smooth;
 }
+
+
+
 #main-nav{
     background-color: transparent;
     position: relative;
-    padding: 40px;
+    padding: 1px;
     text-align: right;
     width: 100%;
     box-sizing: border-box;
@@ -17,11 +20,11 @@ body{
     z-index: 12;
 }
 
-nav img{
-    width: 20%;
+nav .logoNav img{
     position: absolute;
-    top:10px;
-    left:60px;
+    left:50px;
+    top: 10px;
+    width: 18%;
 
 }
 
@@ -30,25 +33,45 @@ nav a{
     text-decoration: none;
     margin: 0 20px;
     font-size: 20px;
+    font-weight: bold;
+    font: weight 100px;
 }
 
 nav a:hover{
-    color: grey;
-    text-decoration: underline;
+    color: #D73A34;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #D73A34;
 }
 
 nav a.btn{
     border: solid 1px #D73A34 ;
-    padding: 10px 15px 10px 15px;
+    padding: 7px 17px 7px 17px;
     border-radius: 25px;
+    margin-top: -10;
     margin-left: 400px;
-    font-size: 20px;
+    font-size: 18px;
+    font: weight 100px;
 }
 
 nav a.btn:hover{
     text-decoration: none;
     background-color: #D73A34;
-    color: black;
+    color: white;
+}
+
+.sticky{
+    background-color: #FFF8F2;
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 13%;
+    z-index: 50;
+    box-shadow: 8px 1px 10px  #adadad;
+}
+
+.nav-sticky{
+
 }
 
 

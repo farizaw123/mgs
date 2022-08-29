@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style-footer.css">
     <title>Document</title>
 </head>
     <footer class="site-footer">
@@ -15,13 +16,8 @@
                     <div class="container0">
                     <h5>Inquire & Careers</h5> 
                         <ul class="footer-sosial">
-                            <li>
-                                <li class="fa-solid fa-envelope"></li>
-                                <a href="mailto:megagiga20@yahoo.com">hrd@megagiga.co.id</a>
-                            </li>
-                            <li><li class="fa-solid fa-phone"></li>
-                                    <a href="https://api.whatsapp.com/send?phone=6281325603903">0813 2560 3903</a>
-                            </li>
+                            <li><li class="fa-solid fa-envelope"></li><a href="mailto:megagiga20@yahoo.com">hrd@megagiga.co.id</a></li>
+                            <li><li class="fa-solid fa-phone"></li><a href="https://api.whatsapp.com/send?phone=6281325603903">0813 2560 3903</a></li>
                             <li><li class="fa-brands fa-firefox"></li><a href="https://megagigasolusindo.co.id/">www.megagigasolusindo.co.id</a></li>
                         </ul> 
                     </div>  

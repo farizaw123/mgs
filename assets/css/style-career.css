@@ -6,6 +6,11 @@
     display: flex;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .atas .pict .gmbr img{
     width: 480px;
     height: 480px;
@@ -20,6 +25,7 @@
 .atas .text h3{
     font-size: 56px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
 }
 

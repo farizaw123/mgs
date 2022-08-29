@@ -2,6 +2,11 @@ a:hover{
     color: #D73A34;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .site-footer{
     padding: 40px;
     font-size: 18px;
@@ -29,12 +34,16 @@ a:hover{
     list-style: none;
     line-height: 50px;
     color: #D73A34;
-    font-size: 25px;
+    font-size: 40px;
 }
 
+.footer-sosial li{
+    margin-top: 5px;
+}
+
+
 .footer-sosial a{
-    margin-left: 10px;
-    margin-bottom: 100px;
+    margin-left: 20px;
     font-size: 20px;
 }
 
