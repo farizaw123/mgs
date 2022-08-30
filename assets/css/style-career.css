@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins&display=swap');
 
+
 .atas{
     margin-top: 70px;
     margin-left: 10%;
     display: flex;
+    
 }
 
 a{
@@ -40,9 +42,87 @@ a{
     padding-right: 18%;
 }
 
-.btn-danger{
+.atas .text .btn-danger{
     margin-top: 20px;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
     border: transparent;
 }
+
+.content{
+    margin-top: 10%;
+    display: flex;
+    margin-left: 30%;
+}
+
+.content .judul h1{
+    font-size: 56px;
+    display: flex;
+    font-weight: bold;
+}
+
+.content .icon i{
+    margin: 0 17px;
+    color: red;
+    font-size: 70px;
+}
+
+.content .judul h1 .merah{
+    color: red;
+    margin: 0 10px;
+}
+
+.jadwal{
+    background-color: red;
+}
+
+.jadwal .box1{
+    margin-left: 5%;
+    margin-top: 100%;
+}
+
+.jadwal .box2{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.jadwal .box3{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.jadwal i{
+    color: red;
+    margin-right: 5px;
+}
+
+.box1 .btn{
+    background: #FFDBDA;
+    color: #D73A34;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: transparent;
+    width: 10%;
+    height: 50px;
+}
+
+.box2 .btn{
+    background: #FFDBDA;
+    color: #D73A34;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: transparent;
+    width: 10%;
+    height: 50px;
+}
+
+.box3 .btn{
+    background: #FFDBDA;
+    color: #D73A34;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: transparent;
+    width: 10%;
+    height: 50px;
+}
+
