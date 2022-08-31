@@ -57,7 +57,7 @@
         </div>
 
         <div class="box2">
-            <div class="row row-cols-4 red">
+            <div class="row row-cols-4">
                 <div class="col-sm-3">
                     <h3>Business Analyst</h3>
                     </i><i class="fa-solid fa-briefcase"></i>PT Mega Giga Solusindo
@@ -89,7 +89,107 @@
                 <button class="btn">Contact Us</button>
             </div>
         </div>
+
+        <div class="box4">
+            <div class="row row-cols-4">
+                <div class="col-sm-3">
+                    <h3>Business Analyst</h3>
+                    </i><i class="fa-solid fa-briefcase"></i>PT Mega Giga Solusindo
+                </div>
+                <div class="col-sm-3" style='margin-top: 45px'>
+                    </i><i class="fa-solid fa-location-dot"></i>Indonesia
+                </div>
+                <div class="col-sm-3">
+                    <h5>30 September 2022</h5>
+                    <p>no of vacancies</p>
+                </div>
+                <button class="btn">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="box5">
+            <div class="row row-cols-4">
+                <div class="col-sm-3">
+                    <h3>Business Analyst</h3>
+                    </i><i class="fa-solid fa-briefcase"></i>PT Mega Giga Solusindo
+                </div>
+                <div class="col-sm-3" style='margin-top: 45px'>
+                    </i><i class="fa-solid fa-location-dot"></i>Indonesia
+                </div>
+                <div class="col-sm-3">
+                    <h5>30 September 2022</h5>
+                    <p>no of vacancies</p>
+                </div>
+                <button class="btn">Contact Us</button>
+            </div>
+        </div>
+
+        <div class="box6">
+            <div class="row row-cols-4">
+                <div class="col-sm-3">
+                    <h3>Business Analyst</h3>
+                    </i><i class="fa-solid fa-briefcase"></i>PT Mega Giga Solusindo
+                </div>
+                <div class="col-sm-3" style='margin-top: 45px'>
+                    </i><i class="fa-solid fa-location-dot"></i>Indonesia
+                </div>
+                <div class="col-sm-3">
+                    <h5>30 September 2022</h5>
+                    <p>no of vacancies</p>
+                </div>
+                <button class="btn">Contact Us</button>
+               
+            </div>
+        </div>
+
+
+
+
+        <div class="form1">
+            <div class="kotak">
+                <div class="content1">
+                    <h3>
+                        We are <div class="merah">waiting</div> for
+                    </h3>
+                    <h3><div class="merah">you to</div> join</h3>
+                    <p>
+                        We have a vision to be a provider
+                        IT Consultant services in Indonesia that
+                        focus on providing business solutions
+                        by utilizing technology.
+                    </p>
+                    <p>
+                        Be a part of us to start success in a brighter future
+                    </p>
+                    <div class="foto">
+                        <img src="assets/img/iconplus.png" alt="career">
+                        <img src="assets/img/mgs.png" alt="career">
+                    </div>
+                </div>
+                <div class="login">
+                    <form method="post">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </div>
+                        <!-- <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div> -->
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                        <button type="submit" class="fa-brands fa-google">  Login with Google</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
 <?php include "paartials/footer.php"; ?>
 </body>
