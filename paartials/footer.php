@@ -24,7 +24,7 @@
                 </div>  
             </div>
             <div class="col-md-3 col-md-2">
-                <div class="container1">
+                <div class="containerr1">
                     <h5>Company</h5>
                     <ul class="footer-links">
                         <li><a href="">About Us</a></li>
@@ -35,7 +35,7 @@
                 
             </div>
             <div class="col-md-3 col-md-2">
-                <div class="container2">
+                <div class="containerr2">
                     <h5>Our Services</h5>
                     <ul class="footer-links">
                         <li><a href="">It Development Service</a></li>

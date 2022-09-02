@@ -52,7 +52,7 @@
                     <h5>30 September 2022</h5>
                     <p>no of vacancies</p>
                 </div>
-                <button class="btn">Contact Us</button>
+                <button class="btn">Apply</button>
             </div>
         </div>
 
@@ -69,7 +69,7 @@
                     <h5>30 September 2022</h5>
                     <p>no of vacancies</p>
                 </div>
-                <button class="btn">Contact Us</button>
+                <button class="btn">Apply</button>
             </div>
         </div>
 
@@ -86,7 +86,7 @@
                     <h5>30 September 2022</h5>
                     <p>no of vacancies</p>
                 </div>
-                <button class="btn">Contact Us</button>
+                <button class="btn">Apply</button>
             </div>
         </div>
 
@@ -103,7 +103,7 @@
                     <h5>30 September 2022</h5>
                     <p>no of vacancies</p>
                 </div>
-                <button class="btn">Contact Us</button>
+                <button class="btn">Apply</button>
             </div>
         </div>
 
@@ -120,7 +120,7 @@
                     <h5>30 September 2022</h5>
                     <p>no of vacancies</p>
                 </div>
-                <button class="btn">Contact Us</button>
+                <button class="btn">Apply</button>
             </div>
         </div>
 
@@ -137,7 +137,7 @@
                     <h5>30 September 2022</h5>
                     <p>no of vacancies</p>
                 </div>
-                <button class="btn">Contact Us</button>
+                <button class="btn">Apply</button>
                
             </div>
         </div>
@@ -175,7 +175,6 @@
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
                             <input type="password" class="form-control" name="password" id="password" placeholder="Password">
-                            <i class="fa-solid fa-eye-slash"></i>
                         </div>
                         <!-- <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">

@@ -4,12 +4,13 @@ a:hover{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(93, 93, 93);
 }
 
 .site-footer{
     padding: 40px;
     font-size: 18px;
+    color: rgb(93, 93, 93);
 }
 
 
@@ -20,6 +21,7 @@ a{
 
 .site-footer h5{
     font-weight: bold;
+    color: black;
 }
 
 .footer-links{
@@ -47,13 +49,12 @@ a{
     font-size: 20px;
 }
 
-.site-footer .row .col-md-3 .container1{
+.site-footer .row .col-md-3 .containerr1, .site-footer .row .col-md-3 .containerr2{
     margin-left: 100px;
+    margin-top: 40px;
 }
 
-.site-footer .row .col-md-3 .container2{
-    margin-left: 100px;
-}
+
 
 .site-footer .row .col-md-3 .container .container0{
     margin-top: 50px;
