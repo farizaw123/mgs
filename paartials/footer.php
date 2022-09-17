@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="./assets/css/style-footer.css">
     <title>Document</title>
 </head>
+<body>
     <footer class="site-footer">
         <div class="row">
-            <div class="col-md-6 col-md-2">
-                <div class="container" style="padding:0 200px 0 0">
+            <div class="col-md-5 col-md-2">
+                <div class="container" style="padding:0 0 0 0">
                     <img src="assets/img/mgs1.png" width="50%" alt="Mega Giga Solusindo">
                     <p class="text-justify">Pondok Permai Wirosaban, Jl. Ki Ageng Pemanahan, Kragilan, Tamanan, Banguntapan Sub-District, Bantul Regency, Special Region of Yogyakarta 55191</p>
                     <div class="container0">
-                    <h5>Inquire & Careers</h5> 
+                        <h5>Inquire & Careers</h5> 
                         <ul class="footer-sosial">
                             <li><li class="fa-solid fa-envelope"></li><a href="mailto:megagiga20@yahoo.com">hrd@megagiga.co.id</a></li>
                             <li><li class="fa-solid fa-phone"></li><a href="https://api.whatsapp.com/send?phone=6281325603903">0813 2560 3903</a></li>

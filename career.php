@@ -181,7 +181,7 @@
                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
                         </div> -->
                         <button type="submit" class="btn btn-danger">Submit</button>
-                        <button type="submit" class="fa-brands fa-google">  Login with Google</button>
+                        <button type="submit">  Login with Google</button>
                         
                     </form>
                 </div>

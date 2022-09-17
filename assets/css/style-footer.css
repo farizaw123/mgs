@@ -9,7 +9,7 @@ a{
 
 .site-footer{
     padding: 40px;
-    font-size: 18px;
+    font-size: 17px;
     color: rgb(93, 93, 93);
 }
 
@@ -22,6 +22,7 @@ a{
 .site-footer h5{
     font-weight: bold;
     color: black;
+    font-size: 22px;
 }
 
 .footer-links{
@@ -32,6 +33,7 @@ a{
 }
 
 .footer-sosial{
+    margin-top: 10px;
     padding-left: 0;
     list-style: none;
     line-height: 50px;
@@ -40,23 +42,37 @@ a{
 }
 
 .footer-sosial li{
+    font-size: 25px;
     margin-top: 5px;
 }
 
 
 .footer-sosial a{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .site-footer .row .col-md-3 .containerr1, .site-footer .row .col-md-3 .containerr2{
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 40px;
 }
 
-
-
-.site-footer .row .col-md-3 .container .container0{
-    margin-top: 50px;
+.col-md-5{
+    margin-right: 90px;
 }
+
+.container{
+    margin-top: 20px;
+}
+
+.container0{
+    margin-top: 80px;
+}
+
+.container0 h5{
+    font-size: 28px;
+}
+
+
+
 
