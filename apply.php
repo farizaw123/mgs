@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/style-navbar.css">
     <link rel="stylesheet" href="assets/css/style-apply.css">
     <link rel="stylesheet" href="assets/css/style-footer.css">
+    
+    <script src ="script.js"></script>
     <script src="https://kit.fontawesome.com/860ae798ee.js" crossorigin="anonymous"></script>
 
 </head>
@@ -110,7 +112,7 @@
                     </div>
                     <div class="textarea">
                         <textarea class="form-control" placeholder="*No education qualification available" name="" id="inputeducational" style="height: 130px; border: none;"></textarea>
-                        <button type="button" class="btn btn-danger" style="border: none; border-radius: 25px; height: 50px; width: 170px; margin-top: 10px;">Add Academy</button>
+                        <button type="button" class="btn btn-danger" style="border: none; border-radius: 25px; height: 50px; width: 170px; margin-top: 10px;" id="education-btn">Add Academy</button>
                     </div>
                 </div>
 
@@ -154,11 +156,67 @@
                                 <input type="text" class="form-control" id="inputfacebook" placeholder="*www.facebook.com/">
                             </div>
                     </div>
+                </div>
+
+                <div class="document">
+                    <div class="opening">
+                        <div class="icon">
+                            <i class="fa-solid fa-floppy-disk"></i>
+                        </div>
+                        <h3>Document</h3>
+                    </div>
+                    <div class="upload">
+                        <div class="profile">
+                            <input type="file" id="default" accept="image/*" hidden>
+                            <div class="img-area">
+                                <div class="pict">
+                                    <img src="izaz.jpeg" alt="">
+                                </div>
+                                <h3>Upload Photo</h3>
+                                <p>*You can upload JPG, JPEG, PNG size must be less than <span>2MB</span></p>
+                                <i class="fa-solid fa-circle-user"></i>
+                            </div>
+                            <button onclick = "defaultbtnActive()" id="custom">Choose File</button>
+                            <div class="file-name">File name here</div>
+                        </div>    
+                        
+                        <div class="cv">
+                            <p>egfjhdcksxmz</p>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
 
 
-
+    <script>
+        const filename = document.querySelector(".file-name");
+        const defaultbtn = document.querySelector("#default");
+        const custombtn = document.querySelector("#custom");
+        const img = document.querySelector("img");
+        function defaultbtnActive(){
+            defaultbtn.click();
+        }
+        defaultbtn.addEventListener("change", function(){
+            const file = this.files[0];
+            if(file){
+                const reader = new FileReader();
+                reader.onload = function(){
+                    const result = reader.result;
+                    img.src = result;
+            }
+            reader.readAsDataUrl(file);
+            if(this.value){
+                let valueStore = this.value;
+                fileName.textContent = valueStore;
+            }
+        });
+        // education
+        const btnEdu = document.querySelector("#education-btn")
+        if btnEdu.addEventListener("click", function(){
+            
+        })
+    </script>
     <?php include "paartials/footer.php"; ?>    
 </body>
